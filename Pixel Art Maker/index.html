@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Press Start 2P'>
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+
+  <div class="options">
+    <form>
+        Color:
+        <input type="color" id="colorPicker">
+        Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Length:
+        <input type="number" id="inputLength" name="length" min="1" value="1">
+        <input type="submit" id="button" value="New Grid">
+    </form>
+  </div>
+  <br />
+
+  <table id="pixelCanvas">
+    <div class="list">
+      <h3 class="instructions">Instructions</h3>
+      <ul>
+        <li>Click to color</li>
+        <li>Double click to erase</li>
+      </ul>
+    </div>
+    <br />
+  </table>
+
+    <script src="designs.js"></script>
+</body>
+</html>
